@@ -19,7 +19,7 @@
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
+						<!-- <span class="icon-bar"></span> -->
 					</button>
 		</div>
 
@@ -27,9 +27,9 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		  <ul class="nav navbar-nav">
 				  <li><a href="index.html">Home</a></li>
-				  <li><a href="#projects">Projects</a></li>
-				  <li><a href="#publications">Publications</a></li> 
-				  <li><a href="#">CV</a></li> 
+				  <li><a href="#work">WorkExperience</a></li>
+				  <li><a href="#projects">Projects</a></li> 
+				  <!-- <li><a href="#">CV</a></li>  -->
 		  </ul>
 		</div>
 	  </div>
@@ -62,7 +62,7 @@
                 <p>University of Waterloo<br>
                 Bachelor of Honour Computer Science<br>
                 AI specialization, Statistics Minor<br>
-                Canada <br>
+                <br>
                 <br>
                 </p>
             </div>
@@ -74,19 +74,37 @@
               <dd><a href="#">Twitter</a></dd>
               <dd><a href="#">LinkedIn</a></dd>
             </div> -->
+
+            <!-- WorkExperience -->
+            <div class="col-md-8" style="height: 100vh;">    
+              <h2 id="work">WorkExperience</h2>
+              
+              <strong>Blackberry</strong><br/>
+              <ul>
+              <li class="paper" words="add, your, keywords, here"><a href="http://github.com">Full title</a> Names of the authors</li>
+              </ul>
+          
+              <strong>Tetris</strong><br/>
+              <ul>
+              <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
+              </ul>
+          </div>
             
             <!-- Projects -->
             <div class="col-md-8" style="height: 100vh;">    
                 <h2 id="projects">Projects</h2>
                 
-                <strong>Semhub</strong><br/>
+                <a href="https://github.com/charleszhang418/Semhub"><strong>Semhub</strong><br/></a>
                 <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a> Names of the authors</li>
+                <li class="semhub"> A static code analysis tool to see overall trends and summaries regarding code quality of repositories</li>
+                <li class="semhub"> The dataset scraped from Github repos, getting general information on the repos through <a href="https://semgrep.dev/">SemGrep</a></li>
+                <li class="semhub"> The backend is built with Python using Flask, the frontend is built with React. MySQL is used as the DBMS for Semhub</li>
                 </ul>
             
-                <strong>Tetris</strong><br/>
+                <a href="https://github.com/charleszhang418/Tetris"><strong>Biquadris</strong><br/></a>
                 <ul>
-                <li class="paper" words="add, your, keywords, here"><a href="#">Full title</a>. Details of the report</li>
+                <li class="biquadris"> Advanced version of Tetris, two players play in turns and compete for higher score</li>
+                <li class="biquadris"> Coded in C++ with OOP and MVC structure</li>
                 </ul>
             </div> 
 
